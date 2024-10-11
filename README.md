@@ -1,39 +1,47 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# 👏 ZoomifyFusion [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/MIT) [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/xsahil03x/before_after/blob/master/LICENSE) [![Build Status](https://travis-ci.com/xsahil03x/before_after.svg?branch=master)](https://travis-ci.com/xsahil03x/before_after) 
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/25670178/61337576-978f1780-a853-11e9-9249-3637d0861ebb.gif" width="80%">
+</p>
+<strong>ZoomifyFUuion</strong>
+<p>ZoomifyFusion is a powerful flutter package designed to provide advanced image comparison with <strong>Zoom</strong> feature.</p>
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+Source code is **100% Dart**, and everything working on android and ios.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Live Demo: https://xsahil03x.github.io/before_after
 
-## Features
+### Show some :heart: and star the repo to support the project
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Getting started
+# 💻 Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
-## Usage
+[![Version](https://img.shields.io/pub/v/before_after.svg)](https://pub.dartlang.org/packages/before_after)
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  zoomify_fusion: <latest version>
 ```
 
-## Additional information
+# ❔ Usage
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+### Import this class
+
+```dart
+import 'package:zoomify_fusion/zoomify_fusion.dart';
+```
+
+### ZoomifyFusion
+
+```dart
+    @ZoomifyFusion(
+            beforeImage: 'assets/after.jpg',
+            afterImage: 'assets/before.jpg',
+            needleImage: 'assets/needle_arrow.png',
+          )
+```
+
+# 📃 License
+
+[MIT License](LICENSE)
